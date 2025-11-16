@@ -8,7 +8,7 @@ pipeline {
         
         // Docker Hub credentials (configure in Jenkins credentials)
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
-        DOCKER_IMAGE = 'ashuz/restaurant-menu-service'
+        DOCKER_IMAGE = 'veeranji123/restaurant-menu-service'
         
         // Nexus configuration
         NEXUS_URL = 'http://nexus:8081'
