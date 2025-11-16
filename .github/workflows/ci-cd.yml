@@ -13,7 +13,7 @@ on:
 
 env:
   NODE_VERSION: '18'
-  DOCKER_IMAGE: ashuz/restaurant-menu-service
+  DOCKER_IMAGE: veeranji123/restaurant-menu-service
   ARTIFACT_NAME: restaurant-menu-service
 
 jobs:
