@@ -12,7 +12,7 @@ pipeline {
         
         // Nexus configuration
         NEXUS_URL = 'http://nexus:8081'
-        NEXUS_REPO = 'npm-releases'
+        NEXUS_REPO = 'raw-artifacts'
         NEXUS_CREDENTIALS = credentials('nexus-credentials')
         
         // SonarQube configuration
